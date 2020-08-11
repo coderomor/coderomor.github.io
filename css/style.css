@@ -1,0 +1,206 @@
+/* Font-Family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif; 
+    color: #646464;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a:hover { text-decoration: none; }
+.boxed-btn{
+    background: #911bff;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.boxed-btn:hover{
+    color:#fff;
+}
+.title{
+    color:#2a2b7d;
+}
+
+.section-logo{}
+
+.section-padding{
+   margin-top: 40px
+}
+
+.main-menu {
+    margin-bottom: 15px;
+}
+.main-menu ul{}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a {
+    color: #fff;
+    background: #911bff;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #911bff;
+    padding: 6px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.main-menu ul li a:hover{
+    background: #fff;
+    color: #911bff;
+}
+
+.hero-area{}
+.hero-inner{}
+.hero-inner h1{font-size: 50px;color: #2a2b7d;margin-bottom: 60px;}
+
+.hero-btn{
+    margin-bottom: 60px;
+}
+.hero-btn a{
+    background: #911bff;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.hero-banner-immage{
+}
+.hero-banner-immage img{
+    margin: 0 auto;
+    width: 56%;
+}
+
+/* Freelacne Section */
+.freelancer{
+    background-color: rgba(39, 74, 239, 0.05);
+    padding: 100px 0;
+}
+.freelancer-inner{}
+.freelancer-inner h2{
+    color: #2a2b7d;
+}
+.freelancer-inner p {
+    font-size: 14px;
+    max-width: 346px;
+    margin: 48px 0px;
+    line-height: 24px;
+}
+.freelancer-inner a {
+    padding: 10px 35px;
+}
+.learnmore-btn{}
+
+.freelance-image{}
+.freelance-image img {
+    height: 60%;
+    width: 85%;
+    margin-top: 25px;
+}
+
+/* Service Section */
+
+.service{
+    margin-top: 60px;
+}
+.service-heading {
+    margin-bottom: 60px;
+}
+.single-service {
+    margin-bottom: 60px;
+}
+.service-img{
+    height: 100px;
+    width: 100px;
+    background-color: #911bff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.service-img img{padding: 16px;}
+
+.service-title{
+    margin-top: 7px;
+}
+.service-title h6{color: #000;}
+.service-title p{
+    font-size: 12px;
+    max-width: 295px;
+}
+
+
+/* Learning Section */
+.learning{
+    background-color: rgba(39, 74, 239, 0.05);
+    padding: 100px 0;
+}
+.learning-img{}
+.learning-img img {
+    
+}
+
+.learning-inner {
+    margin-top: 39px;
+}
+.learning-inner h2{
+    margin-left: 145px;
+}
+.learning-inner p{
+    padding: 35px 0 35px 145px;
+    font-size: 14px;
+}
+.learning-inner a{
+    padding: 12px 30px;
+}
+
+
+/* About Section */
+.about {
+    background-color: #040f40;
+}
+.about-inner {
+    margin-top: 110px;
+}
+.about-inner h2{
+    color: #fff;
+}
+.about-inner p{
+    color: #fff;
+    font-size: 14px;
+    max-width: 496px;
+    padding-top: 20px;
+}
+
+.about-img{}
+.about-img img{}

@@ -1,0 +1,99 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+  .section-padding{
+    margin-top: 10px
+ }
+ .main-menu ul{
+   text-align: center;
+ }
+
+
+ .hero-inner h1{
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom:20px
+ }
+ .hero-btn{
+  margin-bottom: 20px;
+}
+.hero-banner-immage{
+  margin-bottom: 30px;
+}
+.hero-banner-immage img{
+  width: 100%;
+}
+
+
+
+.freelancer{
+  padding: 30px 0;
+}
+.freelancer-inner{
+  text-align: center;
+}
+.freelancer-inner h2{
+  font-size: 25px
+}
+.freelancer-inner p {
+  margin: 20px 0px;
+}
+.freelance-image img {
+  width: 100%;
+}
+
+.service{
+  text-align: center;
+}
+.service-heading {
+  margin-bottom: 20px;
+}
+.single-service {
+  margin-bottom: 10px;
+}
+.service-title p{
+  max-width: 345px;
+}
+
+
+.learning{
+  padding: 40px 0;
+}
+.learning-inner {
+  margin: 20px auto;
+  text-align: center !important;
+}
+.boxed-btn {
+  position: relative;
+  top: 20px;
+}
+.learning-inner h2{
+  font-size: 25px;
+  margin-left: 0;
+  text-align: center;
+}
+.learning-inner p{
+  padding: 0px;
+  text-align: center;
+}
+.learning-inner a{
+  text-align: center;
+}
+
+
+
+    
+}
+/* Wide Mobile Layout: 375px. */
+@media only screen and (min-width: 375px) and (max-width: 767px) { 
+
+}
