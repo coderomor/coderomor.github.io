@@ -165,6 +165,10 @@ a:hover { text-decoration: none; }
     background-color: rgba(39, 74, 239, 0.05);
     padding: 100px 0;
 }
+.learning-img{}
+.learning-img img {
+    
+}
 
 .learning-inner {
     margin-top: 39px;
